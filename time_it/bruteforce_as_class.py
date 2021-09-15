@@ -35,6 +35,6 @@ class main():
         # Allowed characters
         stringType = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`~!@#$%^&*()_-+=[{]}|:;'\",<.>/?"
         tries, timeAmount = self.tryPassword(password, stringType, self.show)
-        print("CyanCoding's BFPC cracked the password %s in %s tries and %s seconds!" % (password, tries, timeAmount))
+        print("CyanCoding's BFPC as a class, cracked the password %s in %s tries and %s seconds!" % (password, tries, timeAmount))
 
 

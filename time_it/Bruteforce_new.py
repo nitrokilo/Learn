@@ -27,4 +27,4 @@ def main(show,key):
     # Allowed characters
     stringType = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`~!@#$%^&*()_-+=[{]}|:;'\",<.>/?"
     tries, timeAmount = tryPassword(password, stringType, show)
-    print("CyanCoding's BFPC cracked the password %s in %s tries and %s seconds!" % (password, tries, timeAmount))
+    print("CyanCoding's BFPC , as a function ,cracked the password %s in %s tries and %s seconds!" % (password, tries, timeAmount))
