@@ -3,7 +3,7 @@ print("Learning to use timeit")
 # Import Timeit
 import timeit
 
-#print numbers between 0 - 1000
+
 
 
 
