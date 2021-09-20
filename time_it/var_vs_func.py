@@ -1,19 +1,19 @@
+from timeit import timeit
 
-import timeit
+def test_variables():
+    return timeit('''
+variable = 'value'
+def tester():
+    return variable
+''')
 
+def test_functions():
+    return timeit('''
+def function():
+    return 'value'
+def tester():
+    return function()
+''')
 
-#insert ife into "testcode" to test variable speed
-ife = "ife"
-
-
-testcode= """
-def f_ife():
-    return "ife"
-"""
-
-
-
-
-result = timeit.timeit(stmt= testcode)
-
-print(result)
+print(f'Calling Functions runs in : {test_function()} seconds')
+print(f'Calling Variables runs in : {test_variable()} seconds')
